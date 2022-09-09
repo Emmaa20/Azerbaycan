@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    padding: 0 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+
+}
+
+.navbar .bar a {
+
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 2rem 0.5rem;
+}
+
+.navbar .bar {
+    display: flex;
+
+}
+
+
+
+.navbar .azerbaycan {
+    padding: 2rem 1.5rem;
+
+}
+
+.navbar .azerbaycan a {
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.navbar .icon {
+    margin-left: 200px;
+    padding: 2rem 0;
+    display: flex;
+}
+
+.navbar .icon i {
+    padding-left: 20px;
+}
+
+.navbar .icon a {
+    padding-top: 0;
+}
+
+.images{
+    margin-left: 157px;
+    background-color: #fbfbfb;
+    width: 100%;
+    padding: 5rem 0;
+}
+.images .left{
+    width: 55%;
+}
+.images .left img{
+    width: 100%;
+}
+.images{
+    display: flex;
+}
+
+.images .right{
+    width: 50%;
+}
+
+.images .right .box{
+
+   width: 70%;
+   padding: 2.6rem 0;
+   margin-left:40px ;
+   border-radius: 10px;
+   text-align: center;
+  
+}
+.images .right .box one
+{
+    color: white;
+    font-size: 20px;
+}
+
+.images .right .one{
+ 
+    background-color: #69acf1;
+}
+.images .right .two{
+    margin-top: 10px;
+    background-color: #0ec4a3;
+}
+.images .right .three{
+    margin-top: 19px;
+    display: flex;
+    background-color: white;
+    padding: 1rem 5px;
+    border: 2px solid rgb(218, 215, 215);
+    box-shadow: 1px 9px 23px -4;
+}
+.images .right .three a{
+    color: black;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.images .right .three img{
+    width: 15%;
+    margin-left: 18px;
+}
+
+@media (max-width:576px) {
+    #container {
+        padding: 0 1rem;
+    }
+
+    .navbar .bar a {
+        display: flex;
+        display: none;
+    }
+
+    .navbar .azerbaycan {
+        padding: 1rem 2rem;
+    }
+    .navbar .azerbaycan a{
+        font-size: 13px;
+    }
+
+    .navbar .icon a {
+        padding-left: 175px;
+        display: flex;
+    }
+    .navbar .icon i{
+        padding: 0 1rem;
+    }
+    .navbar .icon .fa-regular {
+        display: none;
+    }
+
+    .images{
+       flex-direction: column;
+       padding:0 1rem;
+    }
+    .images .left{
+        width: 85%;
+    }
+    .images .right{
+        width: 85%;
+    }
+
+    .images .right .box{
+
+        width: 100%;
+        padding: 2.6rem 0;
+        margin-left: 0;
+        border-radius: 10px;
+        text-align: center;
+       
+     }
+     .images .right .three a{
+        font-size: 17px;
+    }
+}
